@@ -57,6 +57,6 @@ echo "Destination  : $DEST_USER@$DEST_HOST:$DEST_DIR" >> "$SUMMARY_LOG"
 echo "Error Status : $ERROR_MSG" >> "$SUMMARY_LOG"
 
 # Send email with the summary
-mail -s "EM Data Transfer Summary" "$EMAIL_RECIPIENT" < "$SUMMARY_LOG"
+mail -s "Data Transfer Summary" "$EMAIL_RECIPIENT" < "$SUMMARY_LOG"
 
-echo "Transfer completed. Summary sent to $EMAIL_RECIPIENT."
+echo "Transfer completed. Summary sent to $EMAIL_RECIPIENT. Have a wonderful day."
