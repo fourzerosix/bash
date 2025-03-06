@@ -1,4 +1,7 @@
 #!/bin/bash                                                                                                                                                                                [1/282]
+# Author: Dolphin Whisperer
+# Email: jeremy.bell@nih.gov
+# Date: 2025.03.06
 
 ########### put stuff here ################
 # Source and destination details
@@ -12,9 +15,9 @@ EMAIL_RECIPIENT=""
 ###########################################
 
 # Log file setup
-LOG_FILE="/tmp/rsync_transfer.log"
-ERROR_LOG="/tmp/rsync_transfer_errors.log"
-SUMMARY_LOG="/tmp/rsync_transfer_summary.log"
+LOG_FILE="/data/home/hansenbry/rsync_transfer.log"
+ERROR_LOG="/data/home/hansenbry/rsync_transfer_errors.log"
+SUMMARY_LOG="/data/home/hansenbry/rsync_transfer_summary.log"
 START_TIME=$(date +%s)
 
 # Clear previous logs
