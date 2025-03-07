@@ -15,9 +15,9 @@ EMAIL_RECIPIENT=""
 ###########################################
 
 # Log file setup
-LOG_FILE="/data/home/hansenbry/rsync_transfer.log"
-ERROR_LOG="/data/home/hansenbry/rsync_transfer_errors.log"
-SUMMARY_LOG="/data/home/hansenbry/rsync_transfer_summary.log"
+LOG_FILE="~/rsync_transfer.log"
+ERROR_LOG="~/rsync_transfer_errors.log"
+SUMMARY_LOG="~/rsync_transfer_summary.log"
 START_TIME=$(date +%s)
 
 # Clear previous logs
